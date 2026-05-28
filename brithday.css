@@ -1145,6 +1145,8 @@ button:hover {
 
     /* FORM 5 */
 
+    /* ===== FORM 5 FIX HP TOTAL ===== */
+
     .letter-box {
         width: 95%;
         height: auto;
@@ -1155,21 +1157,26 @@ button:hover {
         flex-direction: column;
         align-items: center;
         text-align: center;
+
+        position: relative;
     }
 
-    /* bikin gambar gak absolute lagi */
+    /* semua gambar jadi normal (hapus absolute) */
     .kuromi-gif,
     .melody-gif {
-        position: relative;
-        top: auto;
-        left: auto;
-        right: auto;
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+
         margin: 10px auto;
+        display: block;
     }
 
-    /* ini teks utama (from me to you) */
+    /* teks utama FIX */
     .love-message {
-        position: relative;
+        position: relative !important;
+
         margin-top: 20px;
         padding: 10px;
 
@@ -1179,12 +1186,14 @@ button:hover {
         text-align: center;
     }
 
-    /* tombol biar gak nabrak */
+    /* tombol FIX */
     #letterBtn {
-        position: relative;
-        margin-top: 15px;
+        position: relative !important;
+
         left: auto;
         bottom: auto;
+
+        margin-top: 15px;
     }
 
 }
