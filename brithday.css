@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -18,7 +18,7 @@ body{
     align-items: center;
 }
 
-.container{
+.container {
     width: 92%;
     height: 90vh;
 
@@ -38,7 +38,7 @@ body{
 
 /* ================= FORM 1 CLOUD ================= */
 
-.cloud{
+.cloud {
     position: absolute;
 
     opacity: 0.65;
@@ -48,7 +48,7 @@ body{
     z-index: 1;
 }
 
-.cloud1{
+.cloud1 {
     width: 190px;
 
     top: 30px;
@@ -57,7 +57,7 @@ body{
     animation: float1 5s ease-in-out infinite;
 }
 
-.cloud2{
+.cloud2 {
     width: 240px;
 
     bottom: 40px;
@@ -68,7 +68,7 @@ body{
     animation: float2 6s ease-in-out infinite;
 }
 
-.cloud3{
+.cloud3 {
     width: 280px;
 
     top: 50px;
@@ -81,7 +81,7 @@ body{
 
 /* ================= LOVE ================= */
 
-.love{
+.love {
     position: absolute;
 
     width: 22px;
@@ -91,29 +91,29 @@ body{
     opacity: 0.75;
 }
 
-.love1{
+.love1 {
     top: 100px;
     left: 110px;
 }
 
-.love2{
+.love2 {
     top: 90px;
     right: 180px;
 }
 
-.love3{
+.love3 {
     top: 300px;
     right: 420px;
 }
 
-.love4{
+.love4 {
     bottom: 90px;
     right: 200px;
 }
 
 /* ================= LEFT ================= */
 
-.left-content{
+.left-content {
     z-index: 10;
 
     width: 50%;
@@ -121,7 +121,7 @@ body{
     padding-left: 40px;
 }
 
-.small-duck{
+.small-duck {
     width: 145px;
 
     margin-bottom: 25px;
@@ -129,7 +129,7 @@ body{
     image-rendering: pixelated;
 }
 
-h1{
+h1 {
     font-size: 28px;
 
     line-height: 1.8;
@@ -143,7 +143,7 @@ h1{
 
 /* ================= FORM 1 BUTTON ================= */
 
-button{
+button {
     width: 280px;
     height: 85px;
 
@@ -166,7 +166,7 @@ button{
     transform: translateY(20px);
 }
 
-button:hover{
+button:hover {
     transform: scale(1.05);
 
     background: #ffdcdc;
@@ -174,7 +174,7 @@ button:hover{
 
 /* ================= RIGHT ================= */
 
-.right-content{
+.right-content {
     width: 45%;
 
     display: flex;
@@ -184,7 +184,7 @@ button:hover{
     z-index: 10;
 }
 
-.big-duck{
+.big-duck {
     width: 360px;
 
     image-rendering: pixelated;
@@ -194,7 +194,7 @@ button:hover{
 
 /* ================= FORM 2 ================= */
 
-.gift-page{
+.gift-page {
     width: 100%;
     height: 100vh;
 
@@ -213,7 +213,7 @@ button:hover{
 
 /* ================= CLOUD ================= */
 
-.gift-cloud{
+.gift-cloud {
     position: absolute;
 
     image-rendering: pixelated;
@@ -227,7 +227,7 @@ button:hover{
 
 /* kiri atas BESAR */
 
-.gift-cloud1{
+.gift-cloud1 {
     width: 540px;
 
     top: -90px;
@@ -238,7 +238,7 @@ button:hover{
 
 /* kanan atas agak turun */
 
-.gift-cloud2{
+.gift-cloud2 {
     width: 470px;
 
     top: 20px;
@@ -251,7 +251,7 @@ button:hover{
 
 /* kiri bawah */
 
-.gift-cloud3{
+.gift-cloud3 {
     width: 290px;
 
     bottom: 90px;
@@ -264,7 +264,7 @@ button:hover{
 
 /* kanan bawah */
 
-.gift-cloud4{
+.gift-cloud4 {
     width: 250px;
 
     bottom: 140px;
@@ -277,7 +277,7 @@ button:hover{
 
 /* ================= CONTENT ================= */
 
-.gift-content{
+.gift-content {
     position: relative;
 
     z-index: 5;
@@ -294,7 +294,7 @@ button:hover{
 
 /* ================= TITLE ================= */
 
-.gift-title{
+.gift-title {
     font-family: 'Press Start 2P', cursive;
 
     font-size: 58px;
@@ -312,7 +312,7 @@ button:hover{
 
 /* ================= LOVE GIF ================= */
 
-.gift-love{
+.gift-love {
     position: absolute;
 
     width: 90px;
@@ -326,29 +326,29 @@ button:hover{
 
 /* acak tapi rapih */
 
-.gift-love1{
+.gift-love1 {
     top: 70px;
     left: 300px;
 }
 
-.gift-love2{
+.gift-love2 {
     top: 120px;
     right: 320px;
 }
 
-.gift-love3{
+.gift-love3 {
     bottom: 220px;
     left: 350px;
 }
 
-.gift-love4{
+.gift-love4 {
     bottom: 180px;
     right: 360px;
 }
 
 /* ================= BUTTON ================= */
 
-.gift-button{
+.gift-button {
     width: 320px;
     height: 90px;
 
@@ -356,11 +356,9 @@ button:hover{
 
     border-radius: 25px;
 
-    background: linear-gradient(
-        to bottom,
-        #ff8fc0,
-        #ff5f9f
-    );
+    background: linear-gradient(to bottom,
+            #ff8fc0,
+            #ff5f9f);
 
     color: white;
 
@@ -377,21 +375,21 @@ button:hover{
     cursor: pointer;
 
     box-shadow:
-    0 8px 0 #b93d70,
-    0 12px 20px rgba(0,0,0,0.18);
+        0 8px 0 #b93d70,
+        0 12px 20px rgba(0, 0, 0, 0.18);
 
     transition: 0.25s;
 
     z-index: 5;
 }
 
-.gift-button:hover{
+.gift-button:hover {
     transform: translateY(-4px) scale(1.03);
 }
 
 /* OPEN BUTTON */
 
-#giftBtn{
+#giftBtn {
     opacity: 1 !important;
 
     transform: translateY(0px) !important;
@@ -401,7 +399,7 @@ button:hover{
 
 /* ================= OPENING TEXT ================= */
 
-#openingText{
+#openingText {
     font-family: 'Poppins', sans-serif;
 
     font-size: 32px;
@@ -417,7 +415,7 @@ button:hover{
 
 /* ================= CAT ================= */
 
-.cat-gif{
+.cat-gif {
     width: 260px;
 
     image-rendering: pixelated;
@@ -429,7 +427,7 @@ button:hover{
 
 /* ================= GIFT GIF ================= */
 
-.gift-box-gif{
+.gift-box-gif {
     width: 250px;
 
     display: none;
@@ -445,7 +443,7 @@ button:hover{
 
 /* ================= CHECK BUTTON ================= */
 
-#checkBtn{
+#checkBtn {
     opacity: 0;
 
     display: none;
@@ -455,24 +453,24 @@ button:hover{
 
 /* ================= ANIMATION ================= */
 
-@keyframes cloudFloat{
+@keyframes cloudFloat {
 
-    0%{
+    0% {
         transform: translateY(0px);
     }
 
-    50%{
+    50% {
         transform: translateY(-12px);
     }
 
-    100%{
+    100% {
         transform: translateY(0px);
     }
 }
 
 /* ================= EXTRA LOVE ================= */
 
-.gift-love5{
+.gift-love5 {
     width: 110px;
 
     top: 260px;
@@ -481,7 +479,7 @@ button:hover{
     transform: rotate(-12deg);
 }
 
-.gift-love6{
+.gift-love6 {
     width: 95px;
 
     top: 340px;
@@ -492,7 +490,7 @@ button:hover{
 
 /* ================= EXTRA LOVE ================= */
 
-.gift-love5{
+.gift-love5 {
     width: 110px;
 
     top: 260px;
@@ -501,7 +499,7 @@ button:hover{
     transform: rotate(-12deg);
 }
 
-.gift-love6{
+.gift-love6 {
     width: 95px;
 
     top: 340px;
@@ -512,7 +510,7 @@ button:hover{
 
 /* ================= FLOWER KIRI ================= */
 
-.bottom-flower{
+.bottom-flower {
     position: absolute;
 
     width: 340px;
@@ -531,7 +529,7 @@ button:hover{
 
 /* ================= FLOWER KANAN ================= */
 
-.right-flower{
+.right-flower {
     position: absolute;
 
     width: 300px;
@@ -551,7 +549,7 @@ button:hover{
 
 /* ================= FORM 3 ================= */
 
-.birthday-page{
+.birthday-page {
     width: 100%;
     height: 100vh;
 
@@ -571,7 +569,7 @@ button:hover{
 
 /* CONTENT */
 
-.birthday-content{
+.birthday-content {
     position: relative;
 
     width: 100%;
@@ -589,7 +587,7 @@ button:hover{
 
 /* TEXT */
 
-.birthday-title{
+.birthday-title {
     font-size: 30px;
 
     line-height: 1.6;
@@ -599,7 +597,7 @@ button:hover{
     color: white;
 
     text-shadow:
-    4px 4px 0px #4c8dc4;
+        4px 4px 0px #4c8dc4;
 
     min-height: 100px;
 
@@ -608,7 +606,7 @@ button:hover{
 
 /* HELLO KITTY */
 
-.sanrio-gif{
+.sanrio-gif {
     width: 270px;
 
     image-rendering: pixelated;
@@ -618,7 +616,7 @@ button:hover{
 
 /* CAKE */
 
-.birthday-cake{
+.birthday-cake {
     width: 180px;
 
     image-rendering: pixelated;
@@ -628,7 +626,7 @@ button:hover{
 
 /* BUTTON */
 
-#nextBtn{
+#nextBtn {
     width: 260px;
     height: 80px;
 
@@ -636,11 +634,9 @@ button:hover{
 
     border: 4px solid #1e3a8a;
 
-    background: linear-gradient(
-        135deg,
-        #60a5fa,
-        #1d4ed8
-    );
+    background: linear-gradient(135deg,
+            #60a5fa,
+            #1d4ed8);
 
     color: white;
 
@@ -658,7 +654,7 @@ button:hover{
 
     box-shadow:
         0 6px 0 #0f2a66,
-        0 10px 18px rgba(0,0,0,0.2);
+        0 10px 18px rgba(0, 0, 0, 0.2);
 
     transition: 0.25s;
 
@@ -666,21 +662,21 @@ button:hover{
     transform: translateY(20px);
 }
 
-#nextBtn:hover{
+#nextBtn:hover {
     transform: translateY(-3px) scale(1.03);
     box-shadow:
         0 8px 0 #0f2a66,
-        0 14px 22px rgba(0,0,0,0.25);
+        0 14px 22px rgba(0, 0, 0, 0.25);
 }
 
-#nextBtn.show{
+#nextBtn.show {
     opacity: 1;
     transform: translateY(0);
 }
 
 /* BALLOON */
 
-.balloon{
+.balloon {
     position: absolute;
 
     width: 210px;
@@ -692,21 +688,21 @@ button:hover{
 
 /* kiri bawah */
 
-.balloon-left{
+.balloon-left {
     left: 20px;
     bottom: 20px;
 }
 
 /* kanan bawah */
 
-.balloon-right{
+.balloon-right {
     right: 20px;
     bottom: 20px;
 }
 
 /* ================= LOVE GIF FORM 3 ================= */
 
-.birthday-love{
+.birthday-love {
     position: absolute;
 
     image-rendering: pixelated;
@@ -718,7 +714,7 @@ button:hover{
 
 /* lebih random & natural */
 
-.birthday-love1{
+.birthday-love1 {
     width: 95px;
 
     top: 120px;
@@ -727,7 +723,7 @@ button:hover{
     transform: rotate(-12deg);
 }
 
-.birthday-love2{
+.birthday-love2 {
     width: 70px;
 
     top: 200px;
@@ -736,7 +732,7 @@ button:hover{
     transform: rotate(10deg);
 }
 
-.birthday-love3{
+.birthday-love3 {
     width: 110px;
 
     bottom: 140px;
@@ -747,7 +743,7 @@ button:hover{
 
 /* ================= SUMMER SEA ================= */
 
-.summer{
+.summer {
     position: absolute;
 
     image-rendering: pixelated;
@@ -759,7 +755,7 @@ button:hover{
 
 /* kiri atas */
 
-.summer1{
+.summer1 {
     width: 120px;
 
     top: 70px;
@@ -770,7 +766,7 @@ button:hover{
 
 /* kiri bawah */
 
-.summer2{
+.summer2 {
     width: 90px;
 
     bottom: 110px;
@@ -782,7 +778,7 @@ button:hover{
 
 /* ================= FORM 4 ================= */
 
-.snoopy-page{
+.snoopy-page {
     width: 100%;
     height: 100vh;
 
@@ -801,7 +797,7 @@ button:hover{
 
 /* BOX */
 
-.snoopy-box{
+.snoopy-box {
     width: 850px;
     height: 600px;
 
@@ -822,7 +818,7 @@ button:hover{
 
 /* TEXT */
 
-#snoopyText{
+#snoopyText {
     font-size: 28px;
 
     line-height: 1.8;
@@ -834,7 +830,7 @@ button:hover{
 
 /* SNOOPY */
 
-.snoopy-walk{
+.snoopy-walk {
     width: 180px;
 
     position: absolute;
@@ -847,7 +843,7 @@ button:hover{
 
 /* BUTTON */
 
-#snoopyNextBtn{
+#snoopyNextBtn {
     position: absolute;
 
     bottom: 30px;
@@ -868,7 +864,7 @@ button:hover{
 
 /* ================= FORM 5 ================= */
 
-.letter-page{
+.letter-page {
     width: 100%;
     height: 100vh;
 
@@ -887,7 +883,7 @@ button:hover{
 
 /* BOX */
 
-.letter-box{
+.letter-box {
     width: 900px;
     height: 620px;
 
@@ -906,7 +902,7 @@ button:hover{
 
 /* TEXT ATAS */
 
-.from-text{
+.from-text {
     position: absolute;
 
     top: 55px;
@@ -917,7 +913,7 @@ button:hover{
     color: #1d1d1d;
 }
 
-.to-text{
+.to-text {
     position: absolute;
 
     top: 55px;
@@ -936,7 +932,7 @@ button:hover{
 
 /* GIF */
 
-.kuromi-gif{
+.kuromi-gif {
     width: 270px;
 
     position: absolute;
@@ -947,7 +943,7 @@ button:hover{
     image-rendering: pixelated;
 }
 
-.melody-gif{
+.melody-gif {
     width: 240px;
 
     position: absolute;
@@ -960,7 +956,7 @@ button:hover{
 
 /* MESSAGE */
 
-.love-message{
+.love-message {
     position: absolute;
 
     left: 70px;
@@ -983,7 +979,7 @@ button:hover{
 }
 
 /* BUTTON FORM 5 */
-#letterBtn{
+#letterBtn {
     position: absolute;
 
     left: 50%;
@@ -1017,21 +1013,21 @@ button:hover{
     z-index: 10;
 }
 
-#letterBtn:hover{
+#letterBtn:hover {
     transform: translateY(-2px) scale(1.03);
 
     background: #ffc3df;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-    body{
+    body {
         overflow-x: hidden;
     }
 
     /* FORM 1 */
 
-    .container{
+    .container {
         flex-direction: column;
         justify-content: center;
         padding: 20px;
@@ -1040,26 +1036,26 @@ button:hover{
     }
 
     .left-content,
-    .right-content{
+    .right-content {
         width: 100%;
         padding: 0;
     }
 
-    .big-duck{
+    .big-duck {
         width: 240px;
     }
 
-    .small-duck{
+    .small-duck {
         width: 100px;
     }
 
-    h1{
+    h1 {
         font-size: 18px;
         line-height: 1.6;
         min-height: auto;
     }
 
-    button{
+    button {
         width: 220px;
         height: 70px;
         font-size: 14px;
@@ -1069,128 +1065,126 @@ button:hover{
 
     .cloud1,
     .cloud2,
-    .cloud3{
+    .cloud3 {
         width: 120px;
     }
 
     /* FORM 2 */
 
-    .gift-title{
+    .gift-title {
         font-size: 30px;
     }
 
-    .gift-button{
+    .gift-button {
         width: 220px;
         height: 70px;
         font-size: 12px;
     }
 
-    .cat-gif{
+    .cat-gif {
         width: 180px;
     }
 
-    .gift-box-gif{
+    .gift-box-gif {
         width: 170px;
     }
 
-    .gift-love{
+    .gift-love {
         width: 55px;
     }
 
     .gift-cloud1,
     .gift-cloud2,
     .gift-cloud3,
-    .gift-cloud4{
+    .gift-cloud4 {
         width: 180px;
     }
 
     /* FORM 3 */
 
-    .birthday-title{
+    .birthday-title {
         font-size: 18px;
         padding: 0 20px;
     }
 
-    .sanrio-gif{
+    .sanrio-gif {
         width: 180px;
     }
 
-    .birthday-cake{
+    .birthday-cake {
         width: 120px;
     }
 
-    .balloon{
+    .balloon {
         width: 110px;
     }
 
-    .birthday-love{
+    .birthday-love {
         width: 50px;
     }
 
-    .summer{
+    .summer {
         width: 60px;
     }
 
     /* FORM 4 */
 
-    .snoopy-box{
+    .snoopy-box {
         width: 95%;
         height: 500px;
         padding: 30px 20px;
     }
 
-    #snoopyText{
+    #snoopyText {
         font-size: 18px;
     }
 
-    .snoopy-walk{
+    .snoopy-walk {
         width: 120px;
     }
 
     /* FORM 5 */
 
-    .letter-box{
+    .letter-box {
         width: 95%;
         height: auto;
         min-height: 650px;
         padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
-    .from-text,
-    .to-text{
-        font-size: 16px;
-    }
-
-    .kuromi-gif{
-        width: 140px;
-        top: 120px;
-        left: 20px;
-    }
-
-    .melody-gif{
-        width: 130px;
-        top: 120px;
-        right: 20px;
-    }
-
-    .love-message{
+    /* bikin gambar gak absolute lagi */
+    .kuromi-gif,
+    .melody-gif {
         position: relative;
+        top: auto;
         left: auto;
         right: auto;
-        bottom: auto;
-
-        margin-top: 260px;
-
-        font-size: 14px;
-        line-height: 1.8;
-
-        padding: 0 10px 80px 10px;
+        margin: 10px auto;
     }
 
-    #letterBtn{
-        bottom: 20px;
-        left: 50%;
-        margin-left: -75px;
+    /* ini teks utama (from me to you) */
+    .love-message {
+        position: relative;
+        margin-top: 20px;
+        padding: 10px;
+
+        font-size: 14px;
+        line-height: 1.6;
+
+        text-align: center;
+    }
+
+    /* tombol biar gak nabrak */
+    #letterBtn {
+        position: relative;
+        margin-top: 15px;
+        left: auto;
+        bottom: auto;
     }
 
 }
