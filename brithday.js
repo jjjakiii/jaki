@@ -250,9 +250,8 @@ const snoopyNextBtn =
 document.getElementById("snoopyNextBtn");
 
 const snoopyMessage =
-`huh? what's this?
-looks like snoopy
-has a message !!`;
+`sabarr yaa ell,
+katanya kucingnya mau nunjukin pesan !!`;
 
 let snoopyIndex = 0;
 
