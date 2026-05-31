@@ -181,7 +181,7 @@ const nextBtn =
 document.getElementById("nextBtn");
 
 const birthdayMessage =
-`Happy 16st Birthday Elyaa!`;
+`Happy 16th Birthday Elyaa!`;
 
 let birthdayIndex = 0;
 
