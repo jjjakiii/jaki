@@ -1022,391 +1022,77 @@ button:hover {
 
 
 /* ================================================= */
-/* ================= RESPONSIVE HP ================= */
+/* ============ EXTRA MOBILE FIX (AMAN) ============ */
 /* ================================================= */
 
-@media screen and (max-width: 768px) {
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:768px) {
 
     body {
         overflow-x: hidden;
+    }
+
+    h1,
+    .birthday-title,
+    #snoopyText,
+    .love-message {
+        word-break: break-word;
+    }
+
+    /* FORM 2 */
+
+    .gift-page {
+        height: auto;
+        min-height: 100vh;
         overflow-y: auto;
     }
 
-    /* ================= FORM 1 ================= */
+    .gift-content {
+        padding: 20px 0 40px;
+    }
 
-    .container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    /* FORM 3 */
 
-        padding: 30px 20px;
-
-        gap: 20px;
-
+    .birthday-page {
         height: auto;
         min-height: 100vh;
+        overflow-y: auto;
     }
 
-    .left-content {
-        width: 100%;
-
-        padding-left: 0;
-
-        text-align: center;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .birthday-content {
+        padding: 20px 0 40px;
     }
 
-    .right-content {
-        width: 100%;
+    /* FORM 4 */
+
+    .snoopy-page {
+        overflow-y: auto;
     }
-
-    h1 {
-        font-size: 16px;
-
-        line-height: 1.8;
-
-        min-height: auto;
-
-        margin-bottom: 25px;
-    }
-
-    .small-duck {
-        width: 110px;
-    }
-
-    .big-duck {
-        width: 220px;
-    }
-
-    button {
-        width: 220px;
-        height: 65px;
-
-        font-size: 12px;
-    }
-
-    /* CLOUD */
-
-    .cloud1 {
-        width: 120px;
-
-        top: 10px;
-        left: -20px;
-    }
-
-    .cloud2 {
-        width: 130px;
-
-        bottom: 120px;
-        left: -30px;
-    }
-
-    .cloud3 {
-        width: 150px;
-
-        top: 20px;
-        right: -30px;
-    }
-
-    /* LOVE */
-
-    .love {
-        width: 18px;
-    }
-
-    /* ================= FORM 2 ================= */
-
-    .gift-title {
-        font-size: 24px;
-
-        line-height: 1.6;
-    }
-
-    .gift-button {
-        width: 230px;
-        height: 65px;
-
-        font-size: 11px;
-    }
-
-    #openingText {
-        font-size: 20px;
-    }
-
-    .cat-gif {
-        width: 170px;
-    }
-
-    .gift-box-gif {
-        width: 180px;
-    }
-
-    /* CLOUD FORM 2 */
-
-    .gift-cloud1 {
-        width: 260px;
-
-        top: -30px;
-        left: -60px;
-    }
-
-    .gift-cloud2 {
-        width: 220px;
-
-        top: 10px;
-        right: -50px;
-    }
-
-    .gift-cloud3 {
-        width: 150px;
-
-        bottom: 130px;
-        left: -20px;
-    }
-
-    .gift-cloud4 {
-        width: 140px;
-
-        bottom: 150px;
-        right: -10px;
-    }
-
-    /* LOVE */
-
-    .gift-love1 {
-        width: 70px;
-
-        top: 90px;
-        left: 10px;
-    }
-
-    .gift-love2 {
-        width: 80px;
-
-        top: 120px;
-        right: 20px;
-    }
-
-    .gift-love3 {
-        width: 65px;
-
-        bottom: 180px;
-        left: 15px;
-    }
-
-    .gift-love4 {
-        width: 80px;
-
-        bottom: 180px;
-        right: 15px;
-    }
-
-    .gift-love5 {
-        width: 75px;
-
-        top: 240px;
-        left: 20px;
-    }
-
-    .gift-love6 {
-        width: 70px;
-
-        top: 300px;
-        right: 15px;
-    }
-
-    /* FLOWER */
-
-    .bottom-flower {
-        width: 180px;
-
-        bottom: -20px;
-        left: -30px;
-    }
-
-    .right-flower {
-        width: 160px;
-
-        bottom: -20px;
-        right: -25px;
-    }
-
-    /* ================= FORM 3 ================= */
-
-    .birthday-title {
-        font-size: 18px;
-
-        min-height: 70px;
-
-        margin-bottom: 5px;
-    }
-
-    .sanrio-gif {
-        width: 190px;
-    }
-
-    .birthday-cake {
-        width: 130px;
-
-        margin-top: -10px;
-    }
-
-    #nextBtn {
-        width: 200px;
-        height: 60px;
-
-        font-size: 13px;
-
-        margin-top: 10px;
-    }
-
-    /* BALLOON */
-
-    .balloon {
-        width: 120px;
-    }
-
-    .balloon-left {
-        left: -15px;
-        bottom: 10px;
-    }
-
-    .balloon-right {
-        right: -15px;
-        bottom: 10px;
-    }
-
-    /* EXTRA GIF */
-
-    .birthday-love1 {
-        width: 60px;
-
-        top: 100px;
-        left: 10px;
-    }
-
-    .birthday-love2 {
-        width: 55px;
-
-        top: 170px;
-        right: 15px;
-    }
-
-    .birthday-love3 {
-        width: 70px;
-
-        bottom: 120px;
-        right: 30px;
-    }
-
-    .summer1 {
-        width: 70px;
-
-        top: 60px;
-        right: 40px;
-    }
-
-    .summer2 {
-        width: 65px;
-
-        bottom: 100px;
-        left: 25px;
-    }
-
-    /* ================= FORM 4 ================= */
 
     .snoopy-box {
         width: 95%;
-        height: 500px;
-
-        padding: 40px 20px;
-    }
-
-    #snoopyText {
-        font-size: 16px;
-
-        line-height: 1.8;
-    }
-
-    .snoopy-walk {
-        width: 130px;
-
-        bottom: 90px;
+        max-width: 95%;
     }
 
     #snoopyNextBtn {
-        width: 180px;
-        height: 60px;
-
-        font-size: 12px;
+        bottom: 20px;
     }
 
-    /* ================= FORM 5 HP FIX ================= */
+    /* FORM 5 */
+
+    .letter-page {
+        overflow-y: auto;
+        padding: 10px;
+    }
 
     .letter-box {
         width: 95%;
-        height: auto;
-        max-height: 95vh;
-
-        padding: 20px;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        overflow-y: auto;
+        max-width: 95%;
     }
 
-    .from-text,
-    .to-text {
-        position: static;
 
-        font-size: 14px;
-
-        text-align: center;
-
-        margin: 8px 0;
-    }
-
-    .kuromi-gif,
-    .melody-gif {
-        position: static;
-
-        width: 130px;
-        height: auto;
-
-        margin: 8px 0;
-    }
-
-    .love-message {
-        position: static;
-
-        width: 100%;
-
-        margin-top: 15px;
-
-        font-size: 14px;
-
-        line-height: 1.8;
-
-        text-align: center;
-
-        padding: 0 10px;
-    }
-
-    #letterBtn {
-        position: static;
-
-        margin-top: 20px;
-
-        width: 170px;
-        height: 50px;
-
-        opacity: 1;
-
-        transform: none;
-    }
 }
