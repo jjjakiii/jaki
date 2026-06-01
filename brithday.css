@@ -1344,69 +1344,103 @@ button:hover {
         font-size: 12px;
     }
 
-    /* ================= FORM 5 HP FIX ================= */
+    /* ================= FORM 5 ================= */
 
     .letter-box {
         width: 95%;
-        height: auto;
-        max-height: 95vh;
+        min-height: 90vh;
 
-        padding: 20px;
+        padding: 30px 20px;
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        overflow-y: auto;
+        position: relative;
     }
 
-    .from-text,
-    .to-text {
-        position: static;
+    /* TEXT ATAS */
 
-        font-size: 14px;
+    .from-text {
+        position: absolute;
+
+        top: 80px;
+        left: 40px;
+
+        font-size: 13px;
 
         text-align: center;
 
-        margin: 8px 0;
+        line-height: 1.4;
     }
 
-    .kuromi-gif,
+    .to-text {
+        position: absolute;
+
+        top: 80px;
+        right: 40px;
+
+        font-size: 13px;
+
+        text-align: center;
+
+        line-height: 1.4;
+    }
+
+    /* GIF */
+
+    .kuromi-gif {
+        position: absolute;
+
+        width: 165px;
+
+        top: 155px;
+        left: 15px;
+
+        image-rendering: pixelated;
+
+        object-fit: contain;
+    }
+
     .melody-gif {
-        position: static;
+        position: absolute;
 
-        width: 130px;
-        height: auto;
+        width: 145px;
 
-        margin: 8px 0;
+        top: 165px;
+        right: 20px;
+
+        image-rendering: pixelated;
+
+        object-fit: contain;
     }
+
+    /* TEXT BAWAH */
 
     .love-message {
-        position: static;
+        position: absolute;
 
-        width: 100%;
+        left: 28px;
+        right: 28px;
 
-        margin-top: 15px;
+        bottom: 90px;
 
-        font-size: 14px;
+        font-size: 15px;
 
-        line-height: 1.8;
+        line-height: 2.2;
 
         text-align: center;
-
-        padding: 0 10px;
     }
 
-    #letterBtn {
-        position: static;
+    /* BUTTON */
 
-        margin-top: 20px;
+    #letterBtn {
+        position: absolute;
+
+        left: 50%;
+        bottom: 25px;
+
+        transform: translateX(-50%);
 
         width: 170px;
         height: 50px;
 
-        opacity: 1;
-
-        transform: none;
+        font-size: 10px;
     }
 }
