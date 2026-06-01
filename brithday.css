@@ -996,368 +996,376 @@ button:hover {
 
 @media screen and (max-width:768px) {
 
-   
 
-/* ================= FORM 1 ================= */
 
-.container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* ================= FORM 1 ================= */
 
-    padding: 30px 20px;
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-    gap: 20px;
+        padding: 30px 20px;
 
-    height: auto;
-    min-height: 100vh;
-}
+        gap: 20px;
 
-.left-content {
-    width: 100%;
-
-    padding-left: 0;
-
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.right-content {
-    width: 100%;
-}
-
-h1 {
-    font-size: 16px;
-
-    line-height: 1.8;
-
-    min-height: auto;
-
-    margin-bottom: 25px;
-}
-
-.small-duck {
-    width: 110px;
-}
-
-.big-duck {
-    width: 220px;
-}
-
-button {
-    width: 220px;
-    height: 65px;
-
-    font-size: 12px;
-}
-
-/* CLOUD */
-
-.cloud1 {
-    width: 120px;
-
-    top: 10px;
-    left: -20px;
-}
-
-.cloud2 {
-    width: 130px;
-
-    bottom: 120px;
-    left: -30px;
-}
-
-.cloud3 {
-    width: 150px;
-
-    top: 20px;
-    right: -30px;
-}
-
-/* LOVE */
-
-.love {
-    width: 18px;
-}
-
-/* ================= FORM 2 ================= */
-
-.gift-title {
-    font-size: 24px;
-
-    line-height: 1.6;
-}
-
-.gift-button {
-    width: 230px;
-    height: 65px;
-
-    font-size: 11px;
-}
-
-#openingText {
-    font-size: 20px;
-}
-
-.cat-gif {
-    width: 170px;
-}
-
-.gift-box-gif {
-    width: 180px;
-}
-
-/* CLOUD FORM 2 */
-
-.gift-cloud1 {
-    width: 260px;
-
-    top: -30px;
-    left: -60px;
-}
-
-.gift-cloud2 {
-    width: 220px;
-
-    top: 10px;
-    right: -50px;
-}
-
-.gift-cloud3 {
-    width: 150px;
-
-    bottom: 130px;
-    left: -20px;
-}
-
-.gift-cloud4 {
-    width: 140px;
-
-    bottom: 150px;
-    right: -10px;
-}
-
-/* LOVE */
-
-.gift-love1 {
-    width: 70px;
-
-    top: 90px;
-    left: 10px;
-}
-
-.gift-love2 {
-    width: 80px;
-
-    top: 120px;
-    right: 20px;
-}
-
-.gift-love3 {
-    width: 65px;
-
-    bottom: 180px;
-    left: 15px;
-}
-
-.gift-love4 {
-    width: 80px;
-
-    bottom: 180px;
-    right: 15px;
-}
-
-.gift-love5 {
-    width: 75px;
-
-    top: 240px;
-    left: 20px;
-}
-
-.gift-love6 {
-    width: 70px;
-
-    top: 300px;
-    right: 15px;
-}
-
-/* FLOWER */
-
-.bottom-flower {
-    width: 180px;
-
-    bottom: -20px;
-    left: -30px;
-}
-
-.right-flower {
-    width: 160px;
-
-    bottom: -20px;
-    right: -25px;
-}
-
-/* ================= FORM 3 ================= */
-
-.birthday-title {
-    font-size: 18px;
-
-    min-height: 70px;
-
-    margin-bottom: 5px;
-}
-
-.sanrio-gif {
-    width: 190px;
-}
-
-.birthday-cake {
-    width: 130px;
-
-    margin-top: -10px;
-}
-
-#nextBtn {
-    width: 200px;
-    height: 60px;
-
-    font-size: 13px;
-
-    margin-top: 10px;
-}
-
-/* BALLOON */
-
-.balloon {
-    width: 120px;
-}
-
-.balloon-left {
-    left: -15px;
-    bottom: 10px;
-}
-
-.balloon-right {
-    right: -15px;
-    bottom: 10px;
-}
-
-/* EXTRA GIF */
-
-.birthday-love1 {
-    width: 60px;
-
-    top: 100px;
-    left: 10px;
-}
-
-.birthday-love2 {
-    width: 55px;
-
-    top: 170px;
-    right: 15px;
-}
-
-.birthday-love3 {
-    width: 70px;
-
-    bottom: 120px;
-    right: 30px;
-}
-
-.summer1 {
-    width: 70px;
-
-    top: 60px;
-    right: 40px;
-}
-
-.summer2 {
-    width: 65px;
-
-    bottom: 100px;
-    left: 25px;
-}
-
-/* ================= FORM 4 ================= */
-
-.snoopy-box {
-    width: 95%;
-    height: 500px;
-
-    padding: 40px 20px;
-}
-
-#snoopyText {
-    font-size: 16px;
-
-    line-height: 1.8;
-}
-
-.snoopy-walk {
-    width: 130px;
-
-    bottom: 90px;
-}
-
-#snoopyNextBtn {
-    width: 180px;
-    height: 60px;
-
-    font-size: 12px;
-}
-
-/* ================= FORM 5 HP ================= */
-     .letter-box{
-        width:95%;
-        height:620px;
-        padding:20px;
-    }    
-
-    .from-text{
-        top:20px;
-        left:20px;
-        font-size:11px;
-        position:absolute;
+        height: auto;
+        min-height: 100vh;
     }
 
-    .to-text{
-        top:20px;
-        right:20px;
-        font-size:11px;
-        position:absolute;
-        text-align:right;
+    .left-content {
+        width: 100%;
+
+        padding-left: 0;
+
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .kuromi-gif{
-        width:130px;
-        top:80px;
-        left:10px;
+    .right-content {
+        width: 100%;
     }
 
-    .melody-gif{
-        width:120px;
-        top:95px;
-        right:10px;
+    h1 {
+        font-size: 16px;
+
+        line-height: 1.8;
+
+        min-height: auto;
+
+        margin-bottom: 25px;
     }
 
-    .love-message{
-        left:20px;
-        right:20px;
-        bottom:80px;
-        font-size:13px;
-        line-height:1.8;
-        text-align:center;
+    .small-duck {
+        width: 110px;
     }
 
-    #letterBtn{
-        width:150px;
-        height:45px;
-        font-size:9px;
-        bottom:20px;
+    .big-duck {
+        width: 220px;
+    }
+
+    button {
+        width: 220px;
+        height: 65px;
+
+        font-size: 12px;
+    }
+
+    /* CLOUD */
+
+    .cloud1 {
+        width: 120px;
+
+        top: 10px;
+        left: -20px;
+    }
+
+    .cloud2 {
+        width: 130px;
+
+        bottom: 120px;
+        left: -30px;
+    }
+
+    .cloud3 {
+        width: 150px;
+
+        top: 20px;
+        right: -30px;
+    }
+
+    /* LOVE */
+
+    .love {
+        width: 18px;
+    }
+
+    /* ================= FORM 2 ================= */
+
+    .gift-title {
+        font-size: 24px;
+
+        line-height: 1.6;
+    }
+
+    .gift-button {
+        width: 230px;
+        height: 65px;
+
+        font-size: 11px;
+    }
+
+    #openingText {
+        font-size: 20px;
+    }
+
+    .cat-gif {
+        width: 170px;
+    }
+
+    .gift-box-gif {
+        width: 180px;
+    }
+
+    /* CLOUD FORM 2 */
+
+    .gift-cloud1 {
+        width: 260px;
+
+        top: -30px;
+        left: -60px;
+    }
+
+    .gift-cloud2 {
+        width: 220px;
+
+        top: 10px;
+        right: -50px;
+    }
+
+    .gift-cloud3 {
+        width: 150px;
+
+        bottom: 130px;
+        left: -20px;
+    }
+
+    .gift-cloud4 {
+        width: 140px;
+
+        bottom: 150px;
+        right: -10px;
+    }
+
+    /* LOVE */
+
+    .gift-love1 {
+        width: 70px;
+
+        top: 90px;
+        left: 10px;
+    }
+
+    .gift-love2 {
+        width: 80px;
+
+        top: 120px;
+        right: 20px;
+    }
+
+    .gift-love3 {
+        width: 65px;
+
+        bottom: 180px;
+        left: 15px;
+    }
+
+    .gift-love4 {
+        width: 80px;
+
+        bottom: 180px;
+        right: 15px;
+    }
+
+    .gift-love5 {
+        width: 75px;
+
+        top: 240px;
+        left: 20px;
+    }
+
+    .gift-love6 {
+        width: 70px;
+
+        top: 300px;
+        right: 15px;
+    }
+
+    /* FLOWER */
+
+    .bottom-flower {
+        width: 180px;
+
+        bottom: -20px;
+        left: -30px;
+    }
+
+    .right-flower {
+        width: 160px;
+
+        bottom: -20px;
+        right: -25px;
+    }
+
+    /* ================= FORM 3 ================= */
+
+    .birthday-title {
+        font-size: 18px;
+
+        min-height: 70px;
+
+        margin-bottom: 5px;
+    }
+
+    .sanrio-gif {
+        width: 190px;
+    }
+
+    .birthday-cake {
+        width: 130px;
+
+        margin-top: -10px;
+    }
+
+    #nextBtn {
+        width: 200px;
+        height: 60px;
+
+        font-size: 13px;
+
+        margin-top: 10px;
+    }
+
+    /* BALLOON */
+
+    .balloon {
+        width: 120px;
+    }
+
+    .balloon-left {
+        left: -15px;
+        bottom: 10px;
+    }
+
+    .balloon-right {
+        right: -15px;
+        bottom: 10px;
+    }
+
+    /* EXTRA GIF */
+
+    .birthday-love1 {
+        width: 60px;
+
+        top: 100px;
+        left: 10px;
+    }
+
+    .birthday-love2 {
+        width: 55px;
+
+        top: 170px;
+        right: 15px;
+    }
+
+    .birthday-love3 {
+        width: 70px;
+
+        bottom: 120px;
+        right: 30px;
+    }
+
+    .summer1 {
+        width: 70px;
+
+        top: 60px;
+        right: 40px;
+    }
+
+    .summer2 {
+        width: 65px;
+
+        bottom: 100px;
+        left: 25px;
+    }
+
+    /* ================= FORM 4 ================= */
+
+    .snoopy-box {
+        width: 95%;
+        height: 500px;
+
+        padding: 40px 20px;
+    }
+
+    #snoopyText {
+        font-size: 16px;
+
+        line-height: 1.8;
+    }
+
+    .snoopy-walk {
+        width: 130px;
+
+        bottom: 90px;
+    }
+
+    #snoopyNextBtn {
+        width: 180px;
+        height: 60px;
+
+        font-size: 12px;
+    }
+
+    /* ================= FORM 5 HP ================= */
+    .letter-box {
+        width: 95%;
+        height: 620px;
+        padding: 20px;
+    }
+
+    .from-text {
+        top: 20px;
+        left: 20px;
+        font-size: 11px;
+        position: absolute;
+    }
+
+    .to-text {
+        top: 20px;
+        right: 20px;
+        font-size: 11px;
+        position: absolute;
+        text-align: right;
+    }
+
+    .kuromi-gif {
+        width: 130px;
+        top: 80px;
+        left: 10px;
+    }
+
+    .melody-gif {
+        width: 120px;
+        top: 95px;
+        right: 10px;
+    }
+
+    .love-message {
+        position: absolute;
+
+        left: 20px;
+        right: 20px;
+
+        top: 260px;
+        bottom: 80px;
+
+        overflow-y: auto;
+
+        font-size: 13px;
+        line-height: 1.8;
+
+        text-align: center;
+    }
+
+    #letterBtn {
+        width: 150px;
+        height: 45px;
+        font-size: 9px;
+        bottom: 20px;
     }
 
 }
