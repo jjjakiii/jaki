@@ -947,46 +947,9 @@ button:hover {
     min-height: 120px;
 }
 
-/* BUTTON FORM 5 */
-#letterBtn {
-    position: absolute;
 
-    left: 50%;
-    bottom: 18px;
 
-    width: 150px;
-    height: 55px;
 
-    margin-left: -75px;
-
-    border-radius: 14px;
-
-    border: 3px solid #2b1d1d;
-
-    background: #ffd6ea;
-
-    color: #2b1d1d;
-
-    font-family: 'Press Start 2P', cursive;
-
-    font-size: 10px;
-
-    cursor: pointer;
-
-    opacity: 0;
-
-    transform: translateY(15px);
-
-    transition: 0.4s;
-
-    z-index: 10;
-}
-
-#letterBtn:hover {
-    transform: translateY(-2px) scale(1.03);
-
-    background: #ffc3df;
-}
 
 
 
@@ -1361,11 +1324,5 @@ button:hover {
         text-align: center;
     }
 
-    #letterBtn {
-        width: 150px;
-        height: 45px;
-        font-size: 9px;
-        bottom: 20px;
-    }
 
 }

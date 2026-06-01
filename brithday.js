@@ -430,15 +430,7 @@ function typeFinalMessage(){
 
     }else{
 
-        /* BUTTON MUNCUL */
-
-        const letterBtn =
-        document.getElementById("letterBtn");
-
-        letterBtn.style.opacity = "1";
-
-        letterBtn.style.transform =
-        "translateY(0px)";
+        // selesai
     }
 
 }
